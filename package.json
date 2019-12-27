@@ -1,0 +1,28 @@
+{
+  "name": "es6-boilerplate",
+  "version": "1.0.0",
+  "description": "ES6 boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "Juan Antonio Heredia Guardia",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.0"
+  }
+}
